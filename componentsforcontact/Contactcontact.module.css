@@ -1,0 +1,27 @@
+.contpic img{
+    max-width: 100%;
+    height: auto;
+}
+.contact{
+    position: absolute;
+    top: 34%;
+    left: 10%;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color:  #ffffff;
+}
+.btn{
+    padding: 7px 14px; 
+    color: rgb(236, 240, 244);
+    font-size: 14px;
+    background-color: transparent  ;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 150px;
+    border-style: solid;
+    position: relative;
+}
+.btn:hover{
+    color: rgb(4, 6, 5);
+    background-color: transparent  ;
+}

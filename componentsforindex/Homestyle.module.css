@@ -1,0 +1,54 @@
+/* am home pic display */
+.home{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #CCC0A6;
+    gap: 1rem;
+    
+}
+.hometext{
+    flex:  1 1 17rem;
+}
+/* americano height home pic display */ 
+.homeimg{
+    flex: 1 1 17rem;
+}
+/*AMERICANO ANIMATION*/
+.homeimg img{
+    animation: animate 3s linear infinite;
+}
+/*AMERICANO ANIMATION*/
+@keyframes animate{
+    0%{
+        transform: translate(-11px, 0);
+    }
+    50%{
+        transform: translate(0px, -11px);
+    }
+    100%{
+        transform: translate(-11px, 0);
+    }
+/* FONT IN WELCOME*/
+}
+.hometext span{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    color:#090706;
+
+}
+.hometext h1{
+    font-size: 3.2rem;
+    color: #090706;
+    font-weight: bolder;    
+}
+.hometext h2{
+    font-size: 1.8rem;
+    color: #090706;
+    font-weight: 800; 
+    text-transform: uppercase;
+    margin: 0.5rem 0 1.4rem;   
+}

@@ -1,0 +1,27 @@
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    background: e3f0ee;
+    gap: 1.5rem;    
+}
+.aboutimg{
+    flex: 1 1 17 rem;
+}
+.abouttxt{
+    flex: 1 1 21rem;
+}
+.abouttxt h2{
+    font-size: 1.2rem;
+    color:  #000;
+    text-align: center;
+}
+.abouttxt p {
+    margin: 0.5rem 1rem;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}

@@ -1,0 +1,52 @@
+.pr{
+    text-align: center;
+    text-transform: uppercase;
+}
+.pr span{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #090706;
+}
+.pr h1{
+    font-size: 2rem;
+    color: #090706;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+.box .shop{
+    flex: 1 1 10rem;
+    background: #0e373624;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+}
+
+.box .shop .shopimg{
+    width: 100%;
+    height: 100%;   
+    object-fit: contain;
+    object-position: center;
+}
+.box .shop span{
+    color: #050505cd;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0.2rem 0 0.5rem;
+}
+
+.box .btn{
+    border: 2px solid #0e373624; 
+    color: #414340;
+}
+.box .btn:hover{
+    background-color: #e3f0ee;
+    color: #000;
+}

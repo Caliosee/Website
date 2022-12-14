@@ -1,0 +1,18 @@
+.footer{
+
+	background-color: #CCC0A6;
+	font-family: 'Poppins', sans-serif;
+	padding: 5%;
+	
+}
+.align {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.lastalign{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
