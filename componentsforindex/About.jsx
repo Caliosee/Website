@@ -1,4 +1,4 @@
-import styles from "./aboutstyle.module.css";
+import styles from "./Aboutstyle.module.css";
 
 export default function About() {
     return (
@@ -9,7 +9,7 @@ export default function About() {
         <h2> Serving coffee everyday from 7am to 4pm</h2>
         <h2>Dasmarinas</h2>
           <h5>Exact Address ng Store</h5>
-        <h2>You want us to come in your location?</h2>
+        <h2>You want us to come to your location?</h2>
           <h5>Franchise now </h5>
         </div>
 
